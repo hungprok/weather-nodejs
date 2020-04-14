@@ -1,3 +1,3 @@
 # weather-nodejs
 
-![](demo weather app.gif)
+![](demo-weather-app.gif)
