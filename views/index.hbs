@@ -1,0 +1,25 @@
+<h1>Hung Nguyen weather app</h1>
+
+ {{#if greeting}}
+    <p>{{greeting}}</p>
+  {{/if}}
+
+  {{#if city}}
+    <p>{{city}}</p>
+  {{/if}}
+
+ <form action="/" method="GET">
+    <input name="city" placeholder="Enter a city name" required>
+    <input type="submit" value="Get Forecast">
+
+ {{#if forecast }}
+    <p>{{ forecast.location }}</p>
+    <p>Temperature: {{ forecast.temperature }}</p>
+    <p>Summary: {{ forecast.summary }}</p>
+  {{/if}}
+
+  {{#if error }}
+  <p style="color:red"> {{ error }} <p>
+  {{/if}}
+
+  </form>
