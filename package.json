@@ -2,7 +2,7 @@
     "name": "weather-nodejs",
     "version": "0.0.0",
     "private": true,
-    "scripts ": {
+    "scripts": {
         "start": "node app.js",
         "dev": "nodemon ./bin/www"
     },
